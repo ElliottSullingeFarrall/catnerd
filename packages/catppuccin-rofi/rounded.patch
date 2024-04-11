@@ -1,0 +1,48 @@
+diff --git a/catppuccin-frappe.rasi b/catppuccin-frappe.rasi
+index e6e8783..cb5c61d 100644
+--- a/catppuccin-frappe.rasi
++++ b/catppuccin-frappe.rasi
+@@ -21,6 +21,7 @@ window {
+     height: 360px;
+     border: 3px;
+     border-color: @border-col;
++    border-radius: 10px;
+     background-color: @bg-col;
+ }
+ 
+diff --git a/catppuccin-latte.rasi b/catppuccin-latte.rasi
+index 6826db6..323b33f 100644
+--- a/catppuccin-latte.rasi
++++ b/catppuccin-latte.rasi
+@@ -21,6 +21,7 @@ window {
+     height: 360px;
+     border: 3px;
+     border-color: @border-col;
++    border-radius: 10px;
+     background-color: @bg-col;
+ }
+ 
+diff --git a/catppuccin-macchiato.rasi b/catppuccin-macchiato.rasi
+index 696d769..606655f 100644
+--- a/catppuccin-macchiato.rasi
++++ b/catppuccin-macchiato.rasi
+@@ -21,6 +21,7 @@ window {
+     height: 360px;
+     border: 3px;
+     border-color: @border-col;
++    border-radius: 10px;
+     background-color: @bg-col;
+ }
+ 
+diff --git a/catppuccin-mocha.rasi b/catppuccin-mocha.rasi
+index 38c0b80..92445e3 100644
+--- a/catppuccin-mocha.rasi
++++ b/catppuccin-mocha.rasi
+@@ -21,6 +21,7 @@ window {
+     height: 360px;
+     border: 3px;
+     border-color: @border-col;
++    border-radius: 10px;
+     background-color: @bg-col;
+ }
+ 

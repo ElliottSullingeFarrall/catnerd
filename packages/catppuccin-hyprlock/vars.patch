@@ -1,0 +1,17 @@
+diff --git a/hyprlock.conf b/hyprlock.conf
+index f976b90..85ce3be 100644
+--- a/hyprlock.conf
++++ b/hyprlock.conf
+@@ -1,8 +1,8 @@
+-source = $HOME/.config/hypr/mocha.conf
++source = @palette@
+ 
+-$accent = $mauve
+-$accentAlpha = $mauveAlpha
+-$font = JetBrainsMono Nerd Font
++$accent = $@accent@
++$accentAlpha = $@accent@Alpha
++$font = @font@
+ 
+ # GENERAL
+ general {

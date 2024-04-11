@@ -1,0 +1,184 @@
+diff --git a/catppuccin-frappe.rasi b/catppuccin-frappe.rasi
+index e6e8783..ba04f24 100644
+--- a/catppuccin-frappe.rasi
++++ b/catppuccin-frappe.rasi
+@@ -3,13 +3,12 @@
+     bg-col-light: #303446;
+     border-col: #303446;
+     selected-col: #303446;
+-    blue: #8caaee;
++    bg-but: @button@;
+     fg-col: #c6d0f5;
+-    fg-col2: #e78284;
++    fg-col2: @accent@;
+     grey: #737994;
+ 
+     width: 600;
+-    font: "JetBrainsMono Nerd Font 14";
+ }
+ 
+ element-text, element-icon , mode-switcher {
+@@ -36,7 +35,7 @@ inputbar {
+ }
+ 
+ prompt {
+-    background-color: @blue;
++    background-color: @bg-but;
+     padding: 6px;
+     text-color: @bg-col;
+     border-radius: 3px;
+@@ -93,7 +92,7 @@ button {
+ 
+ button selected {
+   background-color: @bg-col;
+-  text-color: @blue;
++  text-color: @bg-but;
+ }
+ 
+ message {
+@@ -106,6 +105,6 @@ message {
+ textbox {
+     padding: 6px;
+     margin: 20px 0px 0px 20px;
+-    text-color: @blue;
++    text-color: @bg-but;
+     background-color: @bg-col-light;
+ }
+diff --git a/catppuccin-latte.rasi b/catppuccin-latte.rasi
+index 6826db6..a3d6f7a 100644
+--- a/catppuccin-latte.rasi
++++ b/catppuccin-latte.rasi
+@@ -3,13 +3,12 @@
+     bg-col-light: #eff1f5;
+     border-col: #eff1f5;
+     selected-col: #eff1f5;
+-    blue: #1e66f5;
++    bg-but: @button@;
+     fg-col: #4c4f69;
+-    fg-col2: #d20f39;
++    fg-col2: @accent@	;
+     grey: #9ca0b0;
+ 
+     width: 600;
+-    font: "JetBrainsMono Nerd Font 14";
+ }
+ 
+ element-text, element-icon , mode-switcher {
+@@ -36,7 +35,7 @@ inputbar {
+ }
+ 
+ prompt {
+-    background-color: @blue;
++    background-color: @bg-but;
+     padding: 6px;
+     text-color: @bg-col;
+     border-radius: 3px;
+@@ -93,7 +92,7 @@ button {
+ 
+ button selected {
+   background-color: @bg-col;
+-  text-color: @blue;
++  text-color: @bg-but;
+ }
+ 
+ message {
+@@ -106,6 +105,6 @@ message {
+ textbox {
+     padding: 6px;
+     margin: 20px 0px 0px 20px;
+-    text-color: @blue;
++    text-color: @bg-but;
+     background-color: @bg-col-light;
+ }
+diff --git a/catppuccin-macchiato.rasi b/catppuccin-macchiato.rasi
+index 696d769..756a695 100644
+--- a/catppuccin-macchiato.rasi
++++ b/catppuccin-macchiato.rasi
+@@ -3,13 +3,12 @@
+     bg-col-light: #24273a;
+     border-col: #24273a;
+     selected-col: #24273a;
+-    blue: #8aadf4;
++    bg-but: @button@;
+     fg-col: #cad3f5;
+-    fg-col2: #ed8796;
++    fg-col2: @accent@;
+     grey: #6e738d;
+ 
+     width: 600;
+-    font: "JetBrainsMono Nerd Font 14";
+ }
+ 
+ element-text, element-icon , mode-switcher {
+@@ -36,7 +35,7 @@ inputbar {
+ }
+ 
+ prompt {
+-    background-color: @blue;
++    background-color: @bg-but;
+     padding: 6px;
+     text-color: @bg-col;
+     border-radius: 3px;
+@@ -93,7 +92,7 @@ button {
+ 
+ button selected {
+   background-color: @bg-col;
+-  text-color: @blue;
++  text-color: @bg-but;
+ }
+ 
+ message {
+@@ -106,6 +105,6 @@ message {
+ textbox {
+     padding: 6px;
+     margin: 20px 0px 0px 20px;
+-    text-color: @blue;
++    text-color: @bg-but;
+     background-color: @bg-col-light;
+ }
+diff --git a/catppuccin-mocha.rasi b/catppuccin-mocha.rasi
+index 38c0b80..2511a61 100644
+--- a/catppuccin-mocha.rasi
++++ b/catppuccin-mocha.rasi
+@@ -3,13 +3,12 @@
+     bg-col-light: #1e1e2e;
+     border-col: #1e1e2e;
+     selected-col: #1e1e2e;
+-    blue: #89b4fa;
++    bg-but: @button@;
+     fg-col: #cdd6f4;
+-    fg-col2: #f38ba8;
++    fg-col2: @accent@;
+     grey: #6c7086;
+ 
+     width: 600;
+-    font: "JetBrainsMono Nerd Font 14";
+ }
+ 
+ element-text, element-icon , mode-switcher {
+@@ -36,7 +35,7 @@ inputbar {
+ }
+ 
+ prompt {
+-    background-color: @blue;
++    background-color: @bg-but;
+     padding: 6px;
+     text-color: @bg-col;
+     border-radius: 3px;
+@@ -93,7 +92,7 @@ button {
+ 
+ button selected {
+   background-color: @bg-col;
+-  text-color: @blue;
++  text-color: @bg-but;
+ }
+ 
+ message {
+@@ -106,6 +105,6 @@ message {
+ textbox {
+     padding: 6px;
+     margin: 20px 0px 0px 20px;
+-    text-color: @blue;
++    text-color: @bg-but;
+     background-color: @bg-col-light;
+ }
