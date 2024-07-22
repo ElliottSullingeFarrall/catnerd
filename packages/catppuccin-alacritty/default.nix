@@ -8,14 +8,14 @@
 }:
 
 stdenv.mkDerivation rec {
-  pname = "catpuccin-alacritty";
+  pname = "catppuccin-alacritty";
   version = "main";
 
   src = fetchFromGitHub {
     owner = "catppuccin";
     repo = "alacritty";
     rev = version;
-    hash = "sha256-Pi1Hicv3wPALGgqurdTzXEzJNx7vVh+8B9tlqhRpR2Y=";
+    hash = "sha256-5MUWHXs8vfl2/u6YXB4krT5aLutVssPBr+DiuOdMAto=";
   };
 
   installPhase = ''
