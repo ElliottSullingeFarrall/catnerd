@@ -1,6 +1,13 @@
-{ ...
+{ config
+, osConfig
+, lib
+, ...
 }:
 
+let
+  cfg = config.catnerd;
+  inherit (cfg) enable;
+in
 {
   imports = [
     ../../catnerd.nix
@@ -21,4 +28,13 @@
     ./xresources
     ./zsh-syntax-highlighting
   ];
+
+  config = lib.mkIf enable {
+    assertions = [
+      {
+        assertion = osConfig.programs.dconf.enable;
+        message = "CatNerd requires dconf to be enabled in OS";
+      }
+    ];
+  };
 }
