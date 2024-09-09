@@ -1,7 +1,12 @@
-{ lib
+{ config
+, lib
 , ...
 }:
 
+let
+  cfg = config.catnerd;
+  inherit (cfg) enable;
+in
 {
   options.catnerd = {
     enable = lib.mkEnableOption "Enable CatNerd theming";
@@ -52,5 +57,14 @@
         };
       };
     };
+  };
+
+  config = lib.mkIf enable {
+    assertions = [
+      {
+        assertion = config.programs.dconf.enable;
+        message = "CatNerd requires dconf to be enabled";
+      }
+    ];
   };
 }
