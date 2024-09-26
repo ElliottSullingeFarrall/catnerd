@@ -43,6 +43,7 @@ The following is a list of supported and planned modules.
 - [ ] Console
 - [x] Font
 - [x] GRUB
+- [ ] KMScon
 - [x] Plymouth
 - [x] TTY
 - [ ] SDDM
